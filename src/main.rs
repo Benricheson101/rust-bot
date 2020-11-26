@@ -1,3 +1,7 @@
+mod lib;
+
+use lib::config::CONFIG_FILE;
+
 fn main() {
-	println!("Hello, world!");
+	println!("{}", CONFIG_FILE);
 }

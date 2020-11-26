@@ -3,7 +3,15 @@ name = "rust-bot"
 version = "0.0.1"
 authors = ["Relms <relms@furcordapp.com>", "Ben"]
 edition = "2018"
+build = "build.rs"
+
+[dependencies]
+serde_json = "1.0.59"
 
 [dependencies.serenity]
 default-features = true
 version = "0.9.1"
+
+[dependencies.serde]
+default-features = true
+version = "1.0.117"

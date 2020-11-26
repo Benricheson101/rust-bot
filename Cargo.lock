@@ -823,6 +823,8 @@ dependencies = [
 name = "rust-bot"
 version = "0.0.1"
 dependencies = [
+ "serde",
+ "serde_json",
  "serenity",
 ]
 
